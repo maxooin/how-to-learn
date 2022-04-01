@@ -77,7 +77,7 @@
 
 .description{
   width: 80%;
-  margin: 100px;
+  margin: 100px auto;
 }
 
 .two-columns{
@@ -120,18 +120,53 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
-  margin: 100px;
+  margin: 100px auto;
 }
 
 .section-title{
-  border: 1px solid red;
+  margin: 0 auto 20px auto;;
+  display: flex;
+  justify-content: center;
   width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .section-subtitle{
-  border: 1px solid red;
+  margin: auto;
+  display: flex;
+  justify-content: center;
   width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.table__cell{
+  margin-top: 60px;
+  width: 250px;
+}
+
+.table__heading{
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text{
+  margin: 20px auto 0;
+  line-height: 1.2;
+  font-size: 18px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
