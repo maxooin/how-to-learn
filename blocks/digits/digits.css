@@ -3,4 +3,5 @@
   flex-direction: column;
   justify-content: center;
   margin: 100px auto;
+  border: 1px solid red;
 }
